@@ -71,7 +71,7 @@
             int safe = (2*(number- max_number))+1;
 
             Console.WriteLine( "the safe place is : {0}", safe);
-            Console.WriteLine("the max is :{0}",max_number);
+           
 
             Console.ReadKey();
 
