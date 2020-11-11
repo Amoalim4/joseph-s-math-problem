@@ -1,5 +1,16 @@
 /////////////////////////// Joseph's math problem ////////////////////
 
+ // formula
+            //2 * ( x - n) + 1
+            
+           // n is the neast base 2 <<< e.g[2,4,8,16,32,61,128] ....
+
+           //{ 2 (2) , 4 =( 2* 2), 8 = (2 * 2 * 2) >>>> 
+
+           // so n is the nearest base two number of X while X is the given number
+
+///////////////////////////////////----- the code ---//////////////////////////////////////
+
             // |==>
             // here i created an Array that holds the base 2 number
             // in this case we only have first 7 
@@ -45,13 +56,6 @@
                     // if so that value will be added in the new array (newlist[])
 
                     newlist = newlist.Concat( new[] {sq[i]}).ToArray();
-
-
-                    //  example from the internet of how to 
-
-                    //..=> var Freds = new[] { "Fred", "Freddy" };
-
-                    ////..=> Freds = Freds.Concat(new[] { "Frederick" }).ToArray();
                     
                 }
 
@@ -71,19 +75,10 @@
 
             Console.ReadKey();
 
+           // ///////////////////////// test ///////////// 
+           // X = 41
+           // so the N (nearest ) = 32 
 
-            //int num = 0;
+            // 2*(41 - 32)+1 = 19
 
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    num = i + 1;
-            //}
-
-            //Console.WriteLine(num);
-
-
-            //2 * ( number - nb) + 1
-            
-           //nb is the neast base two of the given number 
-
-            // 2*(7 - 4)+1 = 7
+           // so 19 is the safest place to sit if there are 41 people in there.
